@@ -3,15 +3,15 @@ __author__ = 'jevoly'
 __date__ = '2019/2/16 0016 下午 8:01'
 
 
-def sum(n):
-    if n < 1:
-        return 0
+def summ(n):
+    if n:
+        return n + summ(n - 1)
     else:
-        return n + sum(n-1)
+        return 0
+
+print(summ(100))
 
 
-ret = sum(10)
-print(ret)
 
 
 

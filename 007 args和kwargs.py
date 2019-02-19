@@ -11,6 +11,15 @@ fun(*args、**kwargs)中的*args, **kwargs什么意思？
 """
 
 
+def demo(*args):
+    for x in args:
+        print(x)
+
+
+demo(0, 3, 1, 3)
+print('---------------------------')
+
+
 def demo1(arg, *args):
     print(arg)
     for x in args:
@@ -18,6 +27,7 @@ def demo1(arg, *args):
 
 
 demo1('a', 'b', 'c', 'd', 'e')
+print('---------------------------')
 
 
 def demo2(**kwargs):
@@ -26,7 +36,7 @@ def demo2(**kwargs):
 
 
 demo2(name='python', age=10)
-
+print('---------------------------')
 
 
 

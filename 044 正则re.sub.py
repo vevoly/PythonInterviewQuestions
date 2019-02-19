@@ -8,5 +8,6 @@ import re
 a = "张明 98分"
 p = '\d+'
 pattern = re.compile(p)
-ret = re.sub(pattern, '100', a)
+# ret = re.sub(pattern, '100', a)
+ret = pattern.sub('100', a)
 print(ret)

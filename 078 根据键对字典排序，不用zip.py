@@ -4,6 +4,5 @@ __date__ = '2019/2/16 0016 下午 6:29'
 
 dic = {'name': 'zs', 'sex': 'man', 'city': 'bj'}
 
-foo = sorted(dic.items(), key=lambda x: x[0])
-foo = dict(foo)
+foo = dic(sorted(dic.items(), key=lambda x: x[0]))
 print(foo)

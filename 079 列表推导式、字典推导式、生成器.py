@@ -8,5 +8,7 @@ l = [i for i in range(10)]
 print(l)
 t = (i for i in range(10))
 print(t)
+dic = {i: random.randint(4, 9) for i in range(10)}
+print(dic)
 dic = {k: random.randint(4, 9) for k in ['a', 'b', 'c', 'd', 'e']}
 print(dic)

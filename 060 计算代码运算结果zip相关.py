@@ -7,11 +7,18 @@ a0 = dict(a)
 a1 = range(10)
 a2 = [i for i in a1 if i in a0]
 a3 = [a0[s] for s in a0]
+"""
+说明：
+a0是字典
+for s in a0
+s的结果为字典a0的键
+a0[s]当然就是字典a0的值
+"""
 
 print('a0', a0)
 print(list(zip(('a', 'b', 'c', 'd', 'e'), (1, 2, 3, 4, 5))))
-print(a2)
-print(a3)
+print('a2', a2)
+print('a3', a3)
 
 """
 结果:
@@ -33,3 +40,6 @@ a2 = [i for i in a1 if i in a0.values()]
 print(a2)
 a2 = [i for i in a1 if i not in a0.values()]
 print(a2)
+
+for s in a0:
+    print(s)

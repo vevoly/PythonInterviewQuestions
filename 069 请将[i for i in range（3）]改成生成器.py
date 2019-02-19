@@ -11,3 +11,4 @@ __date__ = '2019/2/16 0016 下午 4:45'
 
 a = (i for i in range(3))
 print(type(a))
+

@@ -5,7 +5,7 @@ __date__ = '2019/2/16 0016 下午 6:20'
 dic = {'name': 'zs', 'sex': 'man', 'city': 'bj'}
 
 """
-根据键对字典排序
+根据键对字典排序，使用zip
 """
 
 foo = zip(dic.keys(), dic.values())

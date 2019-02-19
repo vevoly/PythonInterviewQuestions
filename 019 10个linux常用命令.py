@@ -3,19 +3,15 @@ __author__ = 'jevoly'
 __date__ = '2019/2/15 0015 下午 10:36'
 
 """
+cd
 ls
-cd 
 touch
-rm
 mkdir
+rm
+cp
 mv
-vi
-pwd
-kill
-su
-grep
+service
 tree
-net
-
-
+ps
+ifconfig
 """

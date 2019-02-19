@@ -10,7 +10,9 @@ import re
 
 str = '<div class="nam">中国</div>'
 pattern = '<div class=".*">(.*?)</div>'
-ret = re.findall(pattern, str)
+p = re.compile(pattern)
+ret = re.findall(pattern, str) # 这种方法也可以
+# ret = p.findall(str)
 print(ret)
 
 # re.match 尝试从字符串的起始位置匹配一个模式，

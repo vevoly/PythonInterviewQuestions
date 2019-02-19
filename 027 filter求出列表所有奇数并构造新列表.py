@@ -10,7 +10,21 @@ filter() 函数用于过滤序列，过滤掉不符合条件的元素，
 """
 a = list(range(1, 11))
 print(a)
-f = filter(lambda a: a %2 == 1, a)
-# print(type(f))
-ret = [i for i in f]
+ret = list(filter(lambda x: x % 2 == 1, a))
 print(ret)
+
+
+
+
+
+
+
+
+
+
+
+
+# f = filter(lambda a: a %2 == 1, a)
+# # print(type(f))
+# ret = [i for i in f]
+# print(ret)

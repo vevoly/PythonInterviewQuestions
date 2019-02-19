@@ -7,3 +7,7 @@ url = 'https://sycm.taobao.com/bda/tradinganaly/overview/get_summary.json?dateRa
 
 ret = re.findall('dateRange=(.*?)%7C(.*?)&', url)
 print(ret)
+print('--------------------------------------------')
+pattern = re.compile('\d{4}-\d{2}-\d{2}')
+ret = pattern.findall(url)
+print(ret)

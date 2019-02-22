@@ -3,6 +3,8 @@ __author__ = 'jevoly'
 __date__ = '2019/2/22 0022 下午 11:06'
 
 """
+https://www.cnblogs.com/wupeiqi/p/9078770.html
+
 1 CPython
 官方版本解释器，用C语言开发所以叫CPython。
 
